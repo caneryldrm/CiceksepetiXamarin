@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Views.Page1">
+    <ContentPage.Content>
+
+        <Grid    >
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition Width="3*"  />
+                <ColumnDefinition  Width="7*"  />
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="auto" />
+
+
+            </Grid.RowDefinitions>
+            <ScrollView>
+                <StackLayout  HorizontalOptions="End" Grid.Column="0"  Grid.Row="0"  BackgroundColor="LightGray">
+
+
+                    <ImageButton  BackgroundColor="LightGray" Clicked="Button_clicked1" Source="https://akademi.bilgeadam.com/wp-content/uploads/2021/11/Xamarin-5-340x200.png"  HorizontalOptions="Start" CornerRadius="22"/>
+
+                    <Label HorizontalTextAlignment="Center" Text="ÇİÇEK" />
+
+                    <ImageButton BackgroundColor="LightGray"  Clicked="Button_clicked2" Source="https://akademi.bilgeadam.com/wp-content/uploads/2021/11/Xamarin-5-340x200.png"  HorizontalOptions="Start" CornerRadius="22"/>
+                    <Label HorizontalTextAlignment="Center"  Text="ELEKTRONİK" />
+                    <ImageButton BackgroundColor="LightGray" Clicked="Button_clicked3" Source="https://akademi.bilgeadam.com/wp-content/uploads/2021/11/Xamarin-5-340x200.png"  HorizontalOptions="Start" CornerRadius="22"/>
+                    <Label HorizontalTextAlignment="Center"  Text="DOĞUM GÜNÜ" />
+                    <ImageButton BackgroundColor="LightGray" Clicked="Button_clicked4" Source="https://akademi.bilgeadam.com/wp-content/uploads/2021/11/Xamarin-5-340x200.png"  HorizontalOptions="Start" CornerRadius="22"/>
+                    <Label HorizontalTextAlignment="Center"  Text="HEDİYE" />
+                    <ImageButton BackgroundColor="LightGray" Clicked="Button_clicked5" Source="https://akademi.bilgeadam.com/wp-content/uploads/2021/11/Xamarin-5-340x200.png"  HorizontalOptions="Start" CornerRadius="22"/>
+                    <Label HorizontalTextAlignment="Center"  Text="MODA" />
+                 
+
+
+
+
+
+                </StackLayout>
+            </ScrollView>
+            <ScrollView Grid.Column="1" Grid.Row="0" >
+                <StackLayout  Grid.Column="1" Grid.Row="0"  Spacing="1"  VerticalOptions="StartAndExpand" Margin="45" Scale="1.2" Padding="0" Orientation="Vertical"     BackgroundColor="LightGray">
+
+                    <Button BackgroundColor="White" FontAttributes="Bold" TextColor="Black" Text="ÇİÇEK" />
+                    <Button Clicked="Saksiornek" BackgroundColor="White" TextColor="Black" Text="Saksı Çiçeği" />
+                    <Button Clicked="Orkideornek" BackgroundColor="White" TextColor="Black" Text="Orkide" />
+                    <Button Clicked="Laleornek" BackgroundColor="White" TextColor="Black" Text="Lale" />
+                    <Button Clicked="Gulornek" BackgroundColor="White" TextColor="Black" Text="Gül" />
+                    <Button Clicked="Lavantaornek" BackgroundColor="White" TextColor="Black" Text="LAVANTA" />
+                    <Button  BackgroundColor="White" TextColor="Black" Text="BONSAİ" />
+                    <Button  BackgroundColor="White" TextColor="Black" Text="ÇELENKLER" />
+                    <Button  BackgroundColor="White" TextColor="Black" Text="Papatya" />
+
+
+
+
+
+
+
+
+
+
+                </StackLayout>
+            </ScrollView>
+
+
+        </Grid>
+
+
+
+
+
+
+    </ContentPage.Content>
+</ContentPage>
+

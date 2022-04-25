@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Views.Sifremiunuttumekrani">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+
+            <Image Source="icon_ciceksepeti.ico"></Image>
+
+            <Label Text="Şifrenizi değiştirmek için üye olduğunuz e-posta adresinizi giriniz. 
+                   E-posta adresinize şifrenizi değiştirmek için bir link gönderiniz"
+                   FontSize="14"/>
+            <Entry Placeholder="E-Posta" 
+                   TextColor="Black"  
+                   PlaceholderColor="DarkGray"></Entry>
+
+            <Button Text="Gönder" 
+                    BackgroundColor="ForestGreen" 
+                    CornerRadius="5"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

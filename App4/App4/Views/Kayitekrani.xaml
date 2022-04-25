@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Views.Kayitekrani">
+    <ContentPage.Content>
+        <StackLayout Padding="35" 
+                     VerticalOptions="Center" 
+                     HorizontalOptions="FillAndExpand">
+
+            <Image Source="icon_ciceksepeti.ico"></Image>
+
+            <Entry Placeholder="E-Posta" 
+                   TextColor="Black"  
+                   PlaceholderColor="DarkGray"></Entry>
+            <Entry Placeholder="Şifre" 
+                   TextColor="Black" 
+                   PlaceholderColor="DarkGray"></Entry>
+            <Entry Placeholder="Adınız Soyadınız" 
+                   TextColor="Black" 
+                   PlaceholderColor="DarkGray"></Entry>
+            
+            <Button Text="Üye Ol" 
+                    BackgroundColor="ForestGreen" 
+                    BorderWidth="1.5" 
+                    CornerRadius="5" 
+                    TextColor="White"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

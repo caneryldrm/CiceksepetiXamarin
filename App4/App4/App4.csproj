@@ -35,11 +35,17 @@
     <EmbeddedResource Update="Views\Hediyedgko.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Views\HesabimPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\Icımdengeldi.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Kameraornek.xaml">
       <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Kayitekrani.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Laleornek.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -77,6 +83,9 @@
     <EmbeddedResource Update="Views\Sevgili.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Views\Sifremiunuttumekrani.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\Takı.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
@@ -85,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Teraryum.xaml">
       <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Uyegirisekrani.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Yenibebek.xaml">
       <Generator>MSBuild:Compile</Generator>

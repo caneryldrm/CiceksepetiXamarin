@@ -32,7 +32,7 @@
         <ShellContent Title="Kategoriler" Icon="icon_kategori.png" Route="Page1" ContentTemplate="{DataTemplate local:Page1}" />
         <ShellContent Title="Favoriler" Icon="icon_favori.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
         <ShellContent Title="Sepet" Icon="icon_sepet.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
-        <ShellContent Title="Hesabım" Icon="icon_hesabim.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
+        <ShellContent Title="Hesabım" Icon="icon_hesabim.png" ContentTemplate="{DataTemplate local:HesabimPage}" />
     </TabBar>
 
     <!--

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Views.Uyegirisekrani">
+    <ContentPage.Content>
+        <StackLayout Padding="35" 
+                     VerticalOptions="Center" 
+                     HorizontalOptions="FillAndExpand" 
+                     BackgroundColor="White">
+
+
+            <Image Source="icon_ciceksepeti.ico"></Image>
+
+            <Entry x:Name="txtUsername" 
+                   Placeholder="E-Posta" 
+                   TextColor="Black" 
+                   PlaceholderColor="DarkGray"></Entry>
+            <Entry x:Name="txtPassword" 
+                   Placeholder="Şifre" 
+                   TextColor="Black" 
+                   PlaceholderColor="DarkGray"></Entry>
+
+            <Label HorizontalOptions="End">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Şifremi Unuttum" TextColor="CornflowerBlue"/>
+                    </FormattedString>
+                </Label.FormattedText>
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" />
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Button Text="Giriş Yap" 
+                    BackgroundColor="ForestGreen" 
+                    BorderWidth="1.5" 
+                    CornerRadius="5" 
+                    TextColor="White" 
+                    Clicked="Button_Clicked"></Button>
+
+
+            <Label HorizontalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Hesabınız yok mu? " 
+                              TextColor="Gray"/>
+                        <Span Text="Üye Ol" 
+                              TextColor="Gray" 
+                              FontAttributes="Bold" 
+                              TextDecorations="Underline"/>
+                    </FormattedString>
+                </Label.FormattedText>
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Label.GestureRecognizers>
+            </Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -3,10 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App4.Views.Bilgisayarornek">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+
+        <ScrollView BackgroundColor="LightGray">
+            <StackLayout  Spacing="30">
+                <StackLayout BackgroundColor="White" Margin="0,30,0,0"  Orientation="Horizontal" Spacing="10">
+                    <Image WidthRequest="200" Source="https://cdn03.ciceksepeti.com/cicek/kc5295653-1/L/lenovo-v15-82c7001htx-ryzen5-3500u-8gb-256ssd-15-6--fullhd-freedos-tasinabilir-bilgisayar-kc5295653-1-704f53b8dcdb4946b167220a571bb130.jpg" />
+                    <Label FontSize="30" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Bilgisayar  200 TL" />
+                </StackLayout>
+
+                <StackLayout Margin="0,0,0,0" Orientation="Horizontal" BackgroundColor="White" Spacing="10">
+                    <Image WidthRequest="200"   Source="https://cdn03.ciceksepeti.com/cicek/kcm55318189-1/L/asus-x409ma-bv158-celeron-n40204gb128gbfdos14-inc-kcm55318189-1-b9e422799e8a4616ab7d10ca516117a1.jpg" />
+                    <Label FontSize="30" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Bilgisayar  200 TL" />
+                </StackLayout>
+                <StackLayout  Orientation="Horizontal" BackgroundColor="White" Margin="0,0,0,550" Spacing="10">
+                    <Image WidthRequest="200" Source="https://cdn03.ciceksepeti.com/cicek/kc1383595-1/XL/asus-x509jb-ej026a6-i5-1035g1-12gb-1tbssd-mx110-freedos-15-6--fullhd-tasinabilir-bilgisayar-kc1383595-1-f82a1030fc53404699bc7c6c28a87408.jpg" />
+                    <Label FontSize="30" VerticalTextAlignment="Center" TextColor="Black" HorizontalTextAlignment="Center" Text="Bilgisayar 200 TL" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

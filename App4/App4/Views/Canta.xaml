@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Views.Canta">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="LightGray">
+            <StackLayout  Spacing="30">
+                <StackLayout BackgroundColor="White" Margin="0,30,0,0"  Orientation="Horizontal" Spacing="10">
+                    <Image WidthRequest="200" Source="https://cdn03.ciceksepeti.com/cicek/kc1857286-3/XL/bayan-3-gozlu-fermuarli-kilitli-canta-kc1857286-3-b0e0393db90847849ffcd86d48725896.jpg" />
+                    <Label FontSize="30" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Çanta  200 TL" />
+                </StackLayout>
+
+                <StackLayout Margin="0,0,0,0" Orientation="Horizontal" BackgroundColor="White" Spacing="10">
+                    <Image WidthRequest="200"   Source="https://cdn03.ciceksepeti.com/cicek/kc76155-3/XL/6-farkli-renk-bayan-postaci-canta-cok-cepli-kullanisli-kc76155-3-9e5bb3b727554d6aa16b1ae431ae2faf.jpg" />
+                    <Label FontSize="30" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Çanta 200 TL" />
+                </StackLayout>
+                <StackLayout  Orientation="Horizontal" BackgroundColor="White" Margin="0,0,0,550" Spacing="10">
+                    <Image WidthRequest="200" Source="https://cdn03.ciceksepeti.com/cicek/kc2960000-8/XL/kadin-canta-cuzdan-kombini-tm2133-kc2960000-8-850234ab7f084469a23879c878556987.jpg" />
+                    <Label FontSize="30" VerticalTextAlignment="Center" TextColor="Black" HorizontalTextAlignment="Center" Text="Çanta  200 TL" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

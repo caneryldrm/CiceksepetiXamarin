@@ -3,10 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App4.Views.Kucukornek">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+
+        <ScrollView BackgroundColor="LightGray">
+            <StackLayout  Spacing="30">
+                <StackLayout BackgroundColor="White" Margin="0,30,0,0"  Orientation="Horizontal" Spacing="10">
+                    <Image WidthRequest="200" Source="https://cdn03.ciceksepeti.com/cicek/kc6297609-1/XL/karaca-dolu-dolu-kucuk-ev-aletleri-evlilik-paketi-kc6297609-1-43cfd244f1e94bad8ffefbedec0021ea.jpg" />
+                    <Label FontSize="30" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Küçük Ev Aletleri         200 TL" />
+                </StackLayout>
+
+                <StackLayout Margin="0,0,0,0" Orientation="Horizontal" BackgroundColor="White" Spacing="10">
+                    <Image WidthRequest="200"   Source="https://cdn03.ciceksepeti.com/cicek/kcx45930490/XL/schafer-5-prc.-kucuk-ev-aletleri-seti-pembe-bv_13408-1.jpeg" />
+                    <Label FontSize="30" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Küçük Ev Aletleri           200 TL" />
+                </StackLayout>
+                <StackLayout  Orientation="Horizontal" BackgroundColor="White" Margin="0,0,0,550" Spacing="10">
+                    <Image WidthRequest="200" Source="https://cdn03.ciceksepeti.com/cicek/kcm17779108-1/XL/kutahya-porselen-ng-home-4-lu-ev-aletleri-ceyiz-seti-antrasit-kcm17779108-1-250223d49f424e90868a52dcff5a3e60.jpg" />
+                    <Label FontSize="30" VerticalTextAlignment="Center" TextColor="Black" HorizontalTextAlignment="Center" Text="Küçük Ev Aletleri           200 TL" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

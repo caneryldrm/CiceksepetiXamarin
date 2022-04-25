@@ -21,19 +21,18 @@
                 <StackLayout  HorizontalOptions="End" Grid.Column="0"  Grid.Row="0"  BackgroundColor="LightGray">
 
 
-                    <ImageButton  BackgroundColor="LightGray" Clicked="Button_clicked1" Source="https://akademi.bilgeadam.com/wp-content/uploads/2021/11/Xamarin-5-340x200.png"  HorizontalOptions="Start" CornerRadius="22"/>
+                    <ImageButton Scale="0.7"  BackgroundColor="LightGray" Clicked="Button_clicked1" Source="flower.png"  HorizontalOptions="Start" CornerRadius="22"/>
 
                     <Label HorizontalTextAlignment="Center" Text="ÇİÇEK" />
 
-                    <ImageButton BackgroundColor="LightGray"  Clicked="Button_clicked2" Source="https://akademi.bilgeadam.com/wp-content/uploads/2021/11/Xamarin-5-340x200.png"  HorizontalOptions="Start" CornerRadius="22"/>
+                    <ImageButton Scale="0.7"  BackgroundColor="LightGray"  Clicked="Button_clicked2" Source="responsive.png"  HorizontalOptions="Start" CornerRadius="22"/>
                     <Label HorizontalTextAlignment="Center"  Text="ELEKTRONİK" />
-                    <ImageButton BackgroundColor="LightGray" Clicked="Button_clicked3" Source="https://akademi.bilgeadam.com/wp-content/uploads/2021/11/Xamarin-5-340x200.png"  HorizontalOptions="Start" CornerRadius="22"/>
+                    <ImageButton Scale="0.7" BackgroundColor="LightGray" Clicked="Button_clicked3" Source="birthdaycake.png"  HorizontalOptions="Start" CornerRadius="22"/>
                     <Label HorizontalTextAlignment="Center"  Text="DOĞUM GÜNÜ" />
-                    <ImageButton BackgroundColor="LightGray" Clicked="Button_clicked4" Source="https://akademi.bilgeadam.com/wp-content/uploads/2021/11/Xamarin-5-340x200.png"  HorizontalOptions="Start" CornerRadius="22"/>
+                    <ImageButton Scale="0.7" BackgroundColor="LightGray" Clicked="Button_clicked4" Source="gift.png"  HorizontalOptions="Start" CornerRadius="22"/>
                     <Label HorizontalTextAlignment="Center"  Text="HEDİYE" />
-                    <ImageButton BackgroundColor="LightGray" Clicked="Button_clicked5" Source="https://akademi.bilgeadam.com/wp-content/uploads/2021/11/Xamarin-5-340x200.png"  HorizontalOptions="Start" CornerRadius="22"/>
+                    <ImageButton Scale="0.7" BackgroundColor="LightGray" Clicked="Button_clicked5" Source="fashion.png"  HorizontalOptions="Start" CornerRadius="22"/>
                     <Label HorizontalTextAlignment="Center"  Text="MODA" />
-
 
 
 
@@ -45,11 +44,11 @@
                 <StackLayout  Grid.Column="1" Grid.Row="0"  Spacing="1"  VerticalOptions="StartAndExpand" Margin="45" Scale="1.2" Padding="0" Orientation="Vertical"     BackgroundColor="LightGray">
 
                     <Button BackgroundColor="White" FontAttributes="Bold" TextColor="Black" Text="HEDİYE" />
-                    <Button BackgroundColor="White" TextColor="Black" Text="DOĞUM GÜNÜ" />
-                    <Button BackgroundColor="White" TextColor="Black" Text="SEVGİLİ" />
-                    <Button BackgroundColor="White" TextColor="Black" Text="YENİ İŞ / TERFİ" />
-                    <Button BackgroundColor="White" TextColor="Black" Text="İÇİMDEN GELDİ" />
-                    <Button BackgroundColor="White" TextColor="Black" Text="YENİ BEBEK" />
+                    <Button Clicked="Hediyedgko" BackgroundColor="White" TextColor="Black" Text="DOĞUM GÜNÜ" />
+                    <Button Clicked="Sevgili" BackgroundColor="White" TextColor="Black" Text="SEVGİLİ" />
+                    <Button Clicked="Yeniis" BackgroundColor="White" TextColor="Black" Text="YENİ İŞ / TERFİ" />
+                    <Button Clicked="Icımdengeldi" BackgroundColor="White" TextColor="Black" Text="İÇİMDEN GELDİ" />
+                    <Button Clicked="Yenibebek" BackgroundColor="White" TextColor="Black" Text="YENİ BEBEK" />
                     <Button BackgroundColor="White" TextColor="Black" Text="ANNELER GÜNÜ" />
                     <Button BackgroundColor="White" TextColor="Black" Text="HEDİYE SETLERİ" />
                     <Button BackgroundColor="White" TextColor="Black" Text="HEDİYE KUTUSU" />

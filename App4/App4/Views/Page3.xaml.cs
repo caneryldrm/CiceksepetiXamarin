@@ -38,5 +38,25 @@ namespace App4.Views
         {
             await Navigation.PushAsync(new Page5());
         }
+        private async void Dgkohediye(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Dgkohediye());
+        }
+        private async void Dgkocicek(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Dgkocicek());
+        }
+        private async void Cikolata(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Cikolata());
+        }
+        private async void Teraryum(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Teraryum());
+        }
+        private async void Meyvesepeti(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Meyvesepeti());
+        }
     }
 }

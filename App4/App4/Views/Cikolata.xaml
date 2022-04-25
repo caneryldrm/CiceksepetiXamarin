@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Views.Cikolata">
+    <ContentPage.Content>
+
+        <ScrollView BackgroundColor="LightGray">
+            <StackLayout  Spacing="30">
+                <StackLayout BackgroundColor="White" Margin="0,30,0,0"  Orientation="Horizontal" Spacing="10">
+                    <Image WidthRequest="200" Source="https://cdn03.ciceksepeti.com/cicek/kc287076-1/XL/nice-mutlu-yillar-cikolata-toplari-truf-buketi-kc287076-1-1.jpg" />
+                    <Label FontSize="30" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Çikoalta  200 TL" />
+                </StackLayout>
+
+                <StackLayout Margin="0,0,0,0" Orientation="Horizontal" BackgroundColor="White" Spacing="10">
+                    <Image WidthRequest="200"   Source="https://cdn03.ciceksepeti.com/cicek/kc142551-1/XL/tatlim-benim-cikolatali-meyve-sepeti-kc142551-1-51c75e53bcfc43a29111bf34740d6d9d.jpg" />
+                    <Label FontSize="30" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Çikoalta 200 TL" />
+                </StackLayout>
+                <StackLayout  Orientation="Horizontal" BackgroundColor="White" Margin="0,0,0,550" Spacing="10">
+                    <Image WidthRequest="200" Source="https://cdn03.ciceksepeti.com/cicek/kc863914-1/XL/kisiye-ozel-cikolata-toplari-truf-buketi-kc863914-1-1.jpg" />
+                    <Label FontSize="30" VerticalTextAlignment="Center" TextColor="Black" HorizontalTextAlignment="Center" Text="Çikoalta  200 TL" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

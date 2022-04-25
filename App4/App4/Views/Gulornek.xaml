@@ -15,7 +15,7 @@
                     <Image WidthRequest="200"   Source="https://cdn03.ciceksepeti.com/cicek/via163-1/XL/via163-1-8d8775d829b303b-56e6137b.jpg" />
                     <Label FontSize="30" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Gül  200 TL" />
                 </StackLayout>
-                <StackLayout  Orientation="Horizontal" BackgroundColor="White" Margin="0,0,0,0" Spacing="10">
+                <StackLayout  Orientation="Horizontal" BackgroundColor="White" Margin="0,0,0,550" Spacing="10">
                     <Image WidthRequest="200" Source="https://cdn03.ciceksepeti.com/cicek/via238-1/XL/incili-pembe-kutuda-20li-lila-gul-standart-boy-2.jpeg" />
                     <Label FontSize="30" VerticalTextAlignment="Center" TextColor="Black" HorizontalTextAlignment="Center" Text="Gül  200 TL" />
                 </StackLayout>

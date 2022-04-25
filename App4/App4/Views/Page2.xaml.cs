@@ -39,5 +39,25 @@ namespace App4.Views
         {
             await Navigation.PushAsync(new Page5());
         }
+        private async void Ceptelefonuornek(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Ceptelefonuornek());
+        }
+        private async void Kucukornek(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Kucukornek());
+        }
+        private async void Bilgisayarornek(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Bilgisayarornek());
+        }
+        private async void Televizyonornek(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Televizyonornek());
+        }
+        private async void Kameraornek(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Kameraornek());
+        }
     }
 }

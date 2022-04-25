@@ -38,6 +38,26 @@ namespace App4.Views
         {
             await Navigation.PushAsync(new Page5());
         }
+        private async void Ayakkabı(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Ayakkabı());
+        }
+        private async void Canta(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Canta());
+        }
+        private async void Giyim(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Giyim());
+        }
+        private async void Takı(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Takı());
+        }
+        private async void Parfum(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Parfum());
+        }
     }
 
 }

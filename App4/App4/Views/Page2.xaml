@@ -21,19 +21,18 @@
                 <StackLayout  HorizontalOptions="End" Grid.Column="0"  Grid.Row="0"  BackgroundColor="LightGray">
 
 
-                    <ImageButton  BackgroundColor="LightGray" Clicked="Button_clicked1" Source="https://akademi.bilgeadam.com/wp-content/uploads/2021/11/Xamarin-5-340x200.png"  HorizontalOptions="Start" CornerRadius="22"/>
+                    <ImageButton Scale="0.7"  BackgroundColor="LightGray" Clicked="Button_clicked1" Source="flower.png"  HorizontalOptions="Start" CornerRadius="22"/>
 
-                    <Label HorizontalTextAlignment="Center" Text="SANA ÖZEL" />
+                    <Label HorizontalTextAlignment="Center" Text="ÇİÇEK" />
 
-                    <ImageButton BackgroundColor="LightGray"  Clicked="Button_clicked2" Source="https://akademi.bilgeadam.com/wp-content/uploads/2021/11/Xamarin-5-340x200.png"  HorizontalOptions="Start" CornerRadius="22"/>
+                    <ImageButton Scale="0.7"  BackgroundColor="LightGray"  Clicked="Button_clicked2" Source="responsive.png"  HorizontalOptions="Start" CornerRadius="22"/>
                     <Label HorizontalTextAlignment="Center"  Text="ELEKTRONİK" />
-                    <ImageButton BackgroundColor="LightGray" Clicked="Button_clicked3" Source="https://akademi.bilgeadam.com/wp-content/uploads/2021/11/Xamarin-5-340x200.png"  HorizontalOptions="Start" CornerRadius="22"/>
+                    <ImageButton Scale="0.7" BackgroundColor="LightGray" Clicked="Button_clicked3" Source="birthdaycake.png"  HorizontalOptions="Start" CornerRadius="22"/>
                     <Label HorizontalTextAlignment="Center"  Text="DOĞUM GÜNÜ" />
-                    <ImageButton BackgroundColor="LightGray" Clicked="Button_clicked4" Source="https://akademi.bilgeadam.com/wp-content/uploads/2021/11/Xamarin-5-340x200.png"  HorizontalOptions="Start" CornerRadius="22"/>
+                    <ImageButton Scale="0.7" BackgroundColor="LightGray" Clicked="Button_clicked4" Source="gift.png"  HorizontalOptions="Start" CornerRadius="22"/>
                     <Label HorizontalTextAlignment="Center"  Text="HEDİYE" />
-                    <ImageButton BackgroundColor="LightGray" Clicked="Button_clicked5" Source="https://akademi.bilgeadam.com/wp-content/uploads/2021/11/Xamarin-5-340x200.png"  HorizontalOptions="Start" CornerRadius="22"/>
+                    <ImageButton Scale="0.7" BackgroundColor="LightGray" Clicked="Button_clicked5" Source="fashion.png"  HorizontalOptions="Start" CornerRadius="22"/>
                     <Label HorizontalTextAlignment="Center"  Text="MODA" />
-
 
 
 
@@ -45,11 +44,11 @@
                 <StackLayout  Grid.Column="1" Grid.Row="0"  Spacing="1"  VerticalOptions="StartAndExpand" Margin="45" Scale="1.2" Padding="0" Orientation="Vertical"     BackgroundColor="LightGray">
 
                     <Button BackgroundColor="White" FontAttributes="Bold" TextColor="Black" Text="ELEKTRONİK" />
-                    <Button BackgroundColor="White" TextColor="Black" Text="CEP TELEFONU" />
-                    <Button BackgroundColor="White" TextColor="Black" Text="KÜÇÜK EV ALETLERİ" />
-                    <Button BackgroundColor="White" TextColor="Black" Text="BİLGİSAYAR" />
-                    <Button BackgroundColor="White" TextColor="Black" Text="TELEVİZYON" />
-                    <Button BackgroundColor="White" TextColor="Black" Text="KAMERA" />
+                    <Button Clicked="Ceptelefonuornek" BackgroundColor="White" TextColor="Black" Text="CEP TELEFONU" />
+                    <Button Clicked="Kucukornek" BackgroundColor="White" TextColor="Black" Text="KÜÇÜK EV ALETLERİ" />
+                    <Button Clicked="Bilgisayarornek" BackgroundColor="White" TextColor="Black" Text="BİLGİSAYAR" />
+                    <Button Clicked="Televizyonornek" BackgroundColor="White" TextColor="Black" Text="TELEVİZYON" />
+                    <Button Clicked="Kameraornek" BackgroundColor="White" TextColor="Black" Text="KAMERA" />
                     <Button BackgroundColor="White" TextColor="Black" Text="BEYAZ EŞYA" />
                     <Button BackgroundColor="White" TextColor="Black" Text="OYUN VE KONSOL" />
                     <Button BackgroundColor="White" TextColor="Black" Text="ISITMA" />

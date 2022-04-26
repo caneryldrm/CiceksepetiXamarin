@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Views.coksatanlar">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="LightGray">
+            <StackLayout  Spacing="30">
+                <StackLayout Margin="0,0,0,0" Orientation="Horizontal" BackgroundColor="White" Spacing="10">
+                    <Image WidthRequest="200"   Source="https://cdn03.ciceksepeti.com/cicek/kc1659386-1/XL/sirt-sirta-sevgili-not-tutucu-kc1659386-1-d474de02a7f24ddb9ccc1a7ccb170ad9.jpg" />
+                    <Label FontSize="30" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Sevgili Hediyesi 200 TL" />
+                </StackLayout>
+
+                <StackLayout Margin="0,0,0,0" Orientation="Horizontal" BackgroundColor="White" Spacing="10">
+                    <Image WidthRequest="200"   Source="https://cdn03.ciceksepeti.com/cicek/kc994222-1/XL/sultan-gumus-set-kc994222-1-1.jpg" />
+                    <Label FontSize="30" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Takı 200 TL" />
+                </StackLayout>
+
+                <StackLayout Margin="0,0,0,550" Orientation="Horizontal" BackgroundColor="White" Spacing="10">
+                    <Image WidthRequest="200"   Source="https://cdn03.ciceksepeti.com/cicek/kc902149-1/XL/teraryum-ask-bahcemiz-kc902149-1-6.jpg" />
+                    <Label FontSize="30" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Yeni İş Hediyesi 200 TL" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

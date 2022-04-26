@@ -19,18 +19,104 @@
     <ScrollView>
 
         <StackLayout Padding="10">
-            <CarouselView x:Name="Carousel" IndicatorView="kaydirmaisaretci" HeightRequest="200">
+            <CarouselView x:Name="Carousel" 
+                          IndicatorView="kaydirmaisaretci" 
+                          HeightRequest="200">
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
-                        <Image Source="{Binding Url}" Aspect="AspectFill"/>
+                        <Image Source="{Binding Url}" 
+                               Aspect="AspectFill"/>
                     </DataTemplate>
                 </CarouselView.ItemTemplate>
             </CarouselView>
-            <IndicatorView x:Name="kaydirmaisaretci" IndicatorColor="DarkGray" SelectedIndicatorColor="DarkOliveGreen" IndicatorSize="12" VerticalOptions="CenterAndExpand"/>
+            <IndicatorView x:Name="kaydirmaisaretci" 
+                           IndicatorColor="DarkGray" 
+                           SelectedIndicatorColor="DarkOliveGreen" 
+                           IndicatorSize="12" 
+                           VerticalOptions="CenterAndExpand"/>
             <StackLayout Spacing="10">
-                <Image Source="main_coksatanlar" Aspect="AspectFit" Margin="10,10,10,0"/>
-                <Image Source="main_superfiyatlar" Aspect="AspectFit" Margin="10,0,10,0"/>
-                <Image Source="main_ozelfirsatlar" Aspect="AspectFit" Margin="10,0,10,0"/>
+
+                <StackLayout>
+                    <StackLayout>
+                        <Label Text="Çok Satan Ürünler"
+                           FontSize="22"
+                           TextColor="HotPink"
+                           FontAttributes="Italic"/>
+                    </StackLayout>
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout Orientation="Horizontal" 
+                                     HeightRequest="150">
+                            <ImageButton Source="main_coksatanlar"
+                             Aspect="AspectFit"
+                             Margin="10,0,10,0"
+                             CornerRadius="10"
+                             Clicked="ImageButton_Clicked"/>
+
+                            <ImageButton Source="main_parfumA"
+                             Aspect="AspectFit"
+                             Margin="10,0,10,0"
+                             CornerRadius="10"
+                             Clicked="ImageButton_Clicked_3"/>
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+
+
+
+                <StackLayout>
+                    <StackLayout>
+                        <Label Text="Süper Fiyatlar"
+                           FontSize="22"
+                           TextColor="HotPink"
+                           FontAttributes="Italic"/>
+                    </StackLayout>
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout Orientation="Horizontal" 
+                                     HeightRequest="150">
+                            <ImageButton Source="main_superfiyatlar"
+                             Aspect="AspectFit"
+                             Margin="10,0,10,0"
+                             CornerRadius="10"
+                             Clicked="ImageButton_Clicked_1"/>
+
+                            <ImageButton Source="main_saatA"
+                             Aspect="AspectFit"
+                             Margin="10,0,10,0"
+                             CornerRadius="10"
+                             Clicked="ImageButton_Clicked_4"/>
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+
+
+                <StackLayout>
+                    <StackLayout>
+                        <Label Text="Özel Fırsatlar"
+                           FontSize="22"
+                           TextColor="HotPink"
+                           FontAttributes="Italic"/>
+                    </StackLayout>
+
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout Orientation="Horizontal" 
+                                     HeightRequest="150">
+                            <ImageButton Source="main_ozelfirsatlar"
+                             Aspect="AspectFit"
+                             Margin="10,0,10,0"
+                             CornerRadius="10"
+                             Clicked="ImageButton_Clicked_2"/>
+
+                            <ImageButton Source="main_ayicikA"
+                             Aspect="AspectFit"
+                             Margin="10,0,10,0"
+                             CornerRadius="10"
+                             Clicked="ImageButton_Clicked_5"/>
+                        </StackLayout>
+                    </ScrollView>
+
+                </StackLayout>
+
+
             </StackLayout>
 
         </StackLayout>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Views.ozelfirsatlar">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="LightGray">
+            <StackLayout  Spacing="30">
+                <StackLayout BackgroundColor="White" Margin="0,30,0,0"  Orientation="Horizontal" Spacing="10">
+                    <Image WidthRequest="200" Source="https://cdn03.ciceksepeti.com/cicek/kc8464109-1/XL/next-ye-22020kt-22-Inc-55-ekran-dahili-uydulu-tv-kc8464109-1-782d16620a134487b6dfe3c628dd1e86.jpg" />
+                    <Label FontSize="30" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Televizyon  200 TL" />
+                </StackLayout>
+
+                <StackLayout BackgroundColor="White" Margin="0,30,0,0"  Orientation="Horizontal" Spacing="10">
+                    <Image WidthRequest="200" Source="https://cdn03.ciceksepeti.com/cicek/kc834395-1/XL/peaceful-home-succu-teraryum-kc834395-1-20.jpg" />
+                    <Label FontSize="30" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Teraryum  200 TL" />
+                </StackLayout>
+
+                <StackLayout BackgroundColor="White" Margin="0,30,0,550"  Orientation="Horizontal" Spacing="10">
+                    <Image WidthRequest="200" Source="https://cdn03.ciceksepeti.com/cicek/kcm10115709-1/XL/kiz-bebek-yeni-dogan-hediyesi-isikli-elma-teraryum-kcm10115709-1-a034462f88744f77a1acdb173cec45ea.jpg" />
+                    <Label FontSize="30" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Yeni Bebek Hediyesi  200 TL" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

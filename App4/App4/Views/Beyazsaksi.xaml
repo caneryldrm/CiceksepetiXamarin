@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Views.Beyazsaksi"
+             
+             xmlns:vm="clr-namespace:App4.ViewModels"
+             Title="{Binding Title}">
+
+    <ContentPage.BindingContext>
+        <vm:BeyazsaksiViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="LightGray" Spacing="280" >
+
+            <StackLayout Padding="10" BackgroundColor="LightGray" WidthRequest="50" Orientation="Vertical"  Margin="0,10,0,0"   Spacing="10">
+
+
+
+                
+                <Frame Padding="0" CornerRadius="10">
+                    <StackLayout Padding="10" BackgroundColor="White" HeightRequest="100" Orientation="Horizontal" VerticalOptions="Center" Margin="0,0,0,0"  Spacing="30">
+                    <Image  WidthRequest="200" Source="https://cdn03.ciceksepeti.com/cicek/kc6489233-1/XL/ayakli-saksi-ve-howartia-kc6489233-1-05997302a6944d0bafc0f11f55a39eb8.jpg" />
+                    <Label Margin="0,0,10,0" FontSize="20" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Beyaz Saksılı Çiçek             200 TL" />
+
+                    
+                </StackLayout>
+                </Frame>
+                <Frame Padding="0" CornerRadius="10">
+                <Entry PlaceholderColor="Green" HorizontalTextAlignment="Center"    BackgroundColor="White" TextColor="Green"  Placeholder="İndirim Kodu" />
+                </Frame>
+            </StackLayout>
+            <Frame Padding="5" CornerRadius="10">
+                <StackLayout BackgroundColor="White"  Spacing="80" Orientation="Horizontal">
+                <Label Margin="10" FontSize="25" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Toplam  200 TL" />
+                
+                <Button Text="Sepeti Onayla" />
+                
+
+            </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

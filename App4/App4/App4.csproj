@@ -14,6 +14,9 @@
     <EmbeddedResource Update="Views\Ayakkabı.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Views\Beyazsaksi.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\Canta.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

@@ -10,15 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace App4.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Saksiornek : ContentPage
+    public partial class Beyazsaksi : ContentPage
     {
-        public Saksiornek()
+        public Beyazsaksi()
         {
             InitializeComponent();
-        }
-        private async void Beyazsaksi(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Beyazsaksi());
         }
     }
 }

@@ -16,5 +16,20 @@ namespace App4.Views
         {
             InitializeComponent();
         }
+
+        private void ImageButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SevgiliHediyesiFavori());
+        }
+
+        private void ImageButton_Clicked_1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new TakiSetiFavori());
+        }
+
+        private void ImageButton_Clicked_2(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new YeniIsHediyesiFavori());
+        }
     }
 }

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Views.SevgiliHediyesiFavori"
+             xmlns:vm="clr-namespace:App4.ViewModels"
+             Title="{Binding Title}">
+
+    <ContentPage.BindingContext>
+        <vm:FavoriViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Image WidthRequest="200"   Source="https://cdn03.ciceksepeti.com/cicek/kc1659386-1/XL/sirt-sirta-sevgili-not-tutucu-kc1659386-1-d474de02a7f24ddb9ccc1a7ccb170ad9.jpg" />
+            <Label FontSize="30" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Sevgili Hediyesi 200 TL" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
